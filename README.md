@@ -1,4 +1,6 @@
-# Smart Walking Cane (IOT)
+# **Smart Walking Cane (IOT)**
+
+#### The cane uses HC-SR04 sensor to determine the distance between objects that may be in front of the user, buzzer when the object is close to the user, water level sensor to detect water fallen on the ground giving the input to the vibration motor to alert the user.
 
 ### Components:
 - Arduino Uno(Rev-3)
