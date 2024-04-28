@@ -20,6 +20,11 @@ and reach HC-SR04 and calculates the distance
 ```
 ----------
 
+### Image
+![cane image](iot_image.jpeg)
+
+----------
+
 ### Breadboard view:
 ![breadboard view](breadboard_view.jpeg)
 
