@@ -14,7 +14,7 @@
 ```c++
 distanceCm = time * 0.034 / 2;
 /*
-this takes into account the time required to leave
+this takes the time required to leave
 and reach HC-SR04 and calculates the distance
 */
 ```
