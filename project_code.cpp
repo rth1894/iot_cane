@@ -7,8 +7,8 @@ const int mosfetGatePin = 3;
 const int motorOnTime = 2000;
 
 // initalize variables
-int distanceCm, distanceInch, waterState;
-long time;
+int distanceCm, waterState;
+unsigned long time;
 
 void setup() {
   Serial.begin(9600); 
@@ -34,7 +34,7 @@ void loop() {
 
   // Water detection sensor code
   waterState = digitalRead(waterSensorPin);
-  if (waterState == HIGH && digitalRead(buttonPin) == HIGH) {
+  if (waterState == HIGH && digitalRead(buzzerPin) == HIGH) {
     digitalWrite(mosfetGatePin, HIGH);
     delay(motorOnTime);
     digitalWrite(mosfetGatePin, LOW);
